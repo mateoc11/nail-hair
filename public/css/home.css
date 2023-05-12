@@ -1,0 +1,314 @@
+.grid{
+    display: grid;
+    grid-template-columns: 10% 40% 40% 10%;
+    grid-template-rows: 80px 248px 249px 80px;
+    margin: 0px;
+    background-color:#292929;
+}
+
+body{
+    margin: 0px;
+}
+
+.espacio-logo{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:  1;
+    grid-row-end: 1;
+    background: linear-gradient(to bottom, #cc00cc 0%, #ff33cc 100%);
+}
+.barra-seleccion{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start:  1;
+    grid-row-end: 1;
+    background: linear-gradient(to bottom, #cc00cc 0%, #ff33cc 100%);
+}
+
+.logo{
+    display: inline;
+    width: 80%;
+    height: 80px;
+}
+
+.marca{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    margin-top: 10px;
+    margin-left: -2.5%;
+    width: 120px;
+    height: 60px;
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+    font-weight: bolder;
+    font-size: 20pt;
+    text-decoration: none;
+    color: black;
+}
+
+.manicure{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0%;
+    margin-top: -70px;
+    margin-left: 15%;
+    width: 9.5%;
+    height: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+    font-size: 16pt;
+    color: black;
+    text-decoration: none;
+    padding-top: 29px;
+    padding-bottom: 31px;
+    padding-left: 35px;
+    text-shadow: 1px 0px 0px black;
+}
+.pedicura{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    margin-top: -81px;
+    margin-left: 27.45%;
+    width: 9.5%;
+    height: 20.5px;
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+    font-size: 16pt;
+    color: black;
+    text-decoration: none;
+    padding-top: 29px;
+    padding-bottom: 31px;
+    padding-left: 35px;
+    text-shadow: 1px 0px 0px black;
+}
+.peluqueria{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    margin-top: -81px;
+    margin-left: 39.3%;
+    width: 9.5%;
+    height: 21px;
+    font-family:'Times New Roman', Times, serif;
+    font-style:italic;
+    font-size: 16pt;
+    color: black;
+    text-decoration: none;
+    padding-top: 29px;
+    padding-bottom: 31px;
+    padding-left: 28px;
+    text-shadow: 1px 0px 0px black;
+}
+
+.manicure:hover{
+    background-color: #7c066c;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.pedicura:hover{
+    background-color: #7c066c;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.peluqueria:hover{
+    background-color: #7c066c;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.marca:hover{
+    color: white;
+    transition-duration: 0.5s;
+}
+
+.login{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    margin-top: -75px;
+    margin-left: 80%;
+    width: 9%;
+    height: 21px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 12pt;
+    color: black;
+    text-decoration: none;
+}
+.login:hover{
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.registro{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    margin-top: -21px;
+    margin-left: 89%;
+    width: 9%;
+    height: 21px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 12pt;
+    color: black;
+    text-decoration: none;
+}
+.registro:hover{
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.recomendados{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start:  2;
+    grid-row-end: 5;
+    background-color: rgb(54, 54, 54);
+    width:60%;
+    justify-self: end;
+    border:grey solid 1px;
+}
+.about{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25pt;
+    font-weight: bolder;
+    font-style: italic;
+    color: #ff33cc;
+}
+.detalles{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    font-weight: bolder;
+    color: white;
+    font-style: italic;
+}
+.casillas{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start:  2;
+    grid-row-end: 4;
+    width: 77%;
+    height: 550px;
+}
+.cuadros{
+    display: inline-block;
+    border-radius: 5px;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+    background-color: grey;
+    border: solid black 1px;
+}
+.cuadros > img{
+    width: 100%;
+    height: 160px;
+    display: inline;
+}
+.cuadros > p{
+    color:#ff33cc;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 15pt;
+    margin-top: -4px;
+}
+.about:hover{
+    color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 830px)
+{
+    .grid{
+        display: grid;
+        grid-template-columns: 10% 40% 40% 10%;
+        grid-template-rows: 80px 248px 249px 750px;
+        margin: 0px;
+        background-color:#292929;
+    }
+    .espacio-logo{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start:  1;
+        grid-row-end: 1;
+        background: linear-gradient(to bottom, #cc00cc 0%, #ff33cc 100%);
+    }
+    .barra-seleccion{
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start:  2;
+        grid-row-end: 3;
+        height: 150px;
+        background: linear-gradient(to bottom, #cc00cc 0%, #ff33cc 100%);
+    }
+    .logo{
+        display: inline;
+        width: 80px;
+        height: 80px;
+        margin-left: 17%;
+    }
+    .marca{
+        margin: 0px;
+        margin-top: -50px;
+        margin-left: 39%;
+        width: 120px;
+        height: 60px;
+    }
+    .manicure{
+        margin: 0%;
+        margin-top: -1px;
+        margin-left: 37%;
+        width: 9.5%;
+        height: 20px;
+    }
+    .pedicura{
+        margin: 0px;
+        margin-top: -45px;
+        margin-left: 37%;
+        width: 9.5%;
+        height: 20.5px;
+    }
+    .peluqueria{
+        margin: 0px;
+        margin-top: -45px;
+        margin-left: 37%;
+        width: 9.5%;
+        height: 21px;
+    }
+    .login{
+        margin: 0px;
+        margin-top: -156px;
+        margin-left: 32%;
+        width: 25%;
+        height: 21px;
+    }
+    .registro{
+        margin: 0px;
+        margin-top: -21px;
+        margin-left: 56%;
+        width: 9%;
+        height: 21px;
+    }
+    .recomendados{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start:  3;
+        grid-row-end: 5;   
+        margin-top: -98px;
+    }
+    .about{
+        font-size: 20pt;
+    }
+    .detalles{
+        font-size: 10pt;
+    }
+    .casillas{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start:  3;
+        grid-row-end: 4;
+        margin-top: -98px;
+    }
+}
